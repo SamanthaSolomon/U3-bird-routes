@@ -1,4 +1,4 @@
-# HOMEWORK: Birds Routes!!
+# HOMEWORK: Practicing Express routes
 
 ![bird](./assets/reps.jpg)
 
