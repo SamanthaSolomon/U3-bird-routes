@@ -2,25 +2,18 @@
 
 ![bird](./assets/reps.jpg)
 
-It's time to start writing some express!!!
+It's time to start writing some Express code! We'll write a basic web server that sends out data about some birds.
 
-## Let's Get Started!
-
-- Create a basic express server in the `bird-app` directory
-    - You should have files `server.js`, `package.json`, and probably `package-lock.json`
-- The endpoint `/api/birds` sends back the list of all birds in JSON format
-   - You can import this from `/db/birds.js`
-- The endpoint `/api/birds/1` sends back the bird in JSON format with `id: 1` & so on for each bird ID
-- The endpoint `/api/birds/location/nyc` sends back all the birds from NYC in JSON format, & so on for the other locations
-
-### Remember:
-- Use the project we worked on today as your reference for building out this birds project! But DO NOT copy and paste code! If you copy and paste you won't learn effectively. And we're all here to learn ✏️🎒
+1. Create an Express server in the `server.js` file
+1. Create a route handler for `GET /birds.json` that responds with a JSON representation of all birds in our application. A few hints here:
+   - The information about birds exists in the file `birds-app/db/birds.js` which you can access within your `server.js` file with require
+   - Use [`response.json()`](https://expressjs.com/en/4x/api.html#res.json) to send a JSON formatted response
+1. Create a route handler for `GET /birds/:id.json`, where `:id` can be any number like `/birds/1.json`
+   - This will require you to learn about [Express route parameters](https://expressjs.com/en/guide/routing.html#route-parameters)
 
 ### Bonus:
-- Create a views folder, then create a home folder. The home `index.ejs` should display through endpoint `/` with whatever your homepage will be
-- Create a birds folder with an `index.ejs` that displays the results for the endpoint `/birds`
-- Create an additional view for `/birds/:id`
-- [Fell free to reference the ejs docs](http://ejs.co/)
+- Create a `GET /` route that responds with HTML listing out the name for each bird.
+- Create a `GET /cities/:name` route that responds with the birds in that city, e.g. `/cities/NYC`
 
 ## 🚀 Completion looks like:
 
@@ -32,7 +25,5 @@ It's time to start writing some express!!!
 ## 🚀 Your homework submission should include:
 
 - A pull request created on _this repo_ (after you fork).
-- A good commit history
-- Homework template with completion, comfort, wins, losses, questions... you know the drill.
 
-## This homework is due 🚨 11PM ON TUESDAY NIGHT 🚨
+## This homework is due 🚨 11PM ON MONDAY NIGHT 🚨
