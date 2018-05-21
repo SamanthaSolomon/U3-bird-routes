@@ -6,7 +6,7 @@ It's time to start writing some Express code! We'll write a basic web server tha
 
 1. Create an Express server in the `server.js` file
 1. Create a route handler for `GET /birds.json` that responds with a JSON representation of all birds in our application. A few hints here:
-   - The information about birds exists in the file `birds-app/db/birds.js` which you can access within your `server.js` file with require
+   - The information about birds exists in the file `db/birds.js` which you can access within your `server.js` file with require
    - Use [`response.json()`](https://expressjs.com/en/4x/api.html#res.json) to send a JSON formatted response
 1. Create a route handler for `GET /birds/:id.json`, where `:id` can be any number like `/birds/1.json`
    - This will require you to learn about [Express route parameters](https://expressjs.com/en/guide/routing.html#route-parameters)
@@ -17,7 +17,6 @@ It's time to start writing some Express code! We'll write a basic web server tha
 
 ## 🚀 Completion looks like:
 
-- You have an express app in your `bird-app` directory
 - Your express app includes a `server.js`, with accurate routes
 - Your commit history has more than one commit
 
