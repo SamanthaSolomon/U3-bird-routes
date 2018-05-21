@@ -13,7 +13,7 @@ It's time to start writing some Express code! We'll write a basic web server tha
 
 ### Bonus:
 - Create a `GET /` route that responds with HTML listing out the name for each bird.
-- Create a `GET /cities/:name` route that responds with the birds in that city, e.g. `/cities/NYC`
+- Create a `GET /cities/:name.json` route that responds with the birds in that city, e.g. `/cities/NYC.json`
 
 ## 🚀 Completion looks like:
 
