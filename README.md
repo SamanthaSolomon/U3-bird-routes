@@ -23,6 +23,6 @@ It's time to start writing some Express code! We'll write a basic web server tha
 
 ## 🚀 Your homework submission should include:
 
-- A pull request created on _this repo_ (after you fork).
+- A pull request created on _this repo_ (after you fork). - IF YOU DO NOT PUT IN A PULL REQUEST YOUR HW WILL BE MARKED MISSING!
 
-## This homework is due 🚨 11PM ON MONDAY NIGHT 🚨
+## This homework is due 🚨 11PM ON TUESDAY NIGHT 🚨 
