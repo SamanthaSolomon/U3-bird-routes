@@ -1,4 +1,4 @@
-#E HOMEWORK: Practicing Express routes
+## HOMEWORK: Practicing Express routes
 
 ![bird](./assets/reps.jpg)
 
