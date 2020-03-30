@@ -1,4 +1,4 @@
-# HOMEWORK: Practicing Express routes
+#E HOMEWORK: Practicing Express routes
 
 ![bird](./assets/reps.jpg)
 
@@ -27,4 +27,3 @@ A few hints here:
 
 - A pull request created on _this repo_ (after you fork). - IF YOU DO NOT PUT IN A PULL REQUEST YOUR HW WILL BE MARKED MISSING!
 
-## This homework is due 🚨 11PM ON TUESDAY NIGHT 🚨 
