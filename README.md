@@ -22,8 +22,3 @@ A few hints here:
 - Your express app includes a `server.js`, with accurate routes
 - Your commit history has more than one commit
 
-
-## 🚀 Your homework submission should include:
-
-- A pull request created on _this repo_ (after you fork). - IF YOU DO NOT PUT IN A PULL REQUEST YOUR HW WILL BE MARKED MISSING!
-
