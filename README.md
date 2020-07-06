@@ -9,7 +9,6 @@ It's time to start writing some Express code! We'll write a basic web server tha
 A few hints here:
    - The information about birds exists in the file `db/birds.js` which you can access within your `server.js` file with require
    - Use [`response.json()`](https://expressjs.com/en/4x/api.html#res.json) to send a JSON formatted response
-1. Create a route handler for `GET /birds` that responds with a JSON representation of all birds in our application. 
 1. Create a route handler for `GET /birds/:id`, where `:id` can be any number like `/birds/1`
    - This will require you to learn about [Express route parameters](https://expressjs.com/en/guide/routing.html#route-parameters)
 
