@@ -10,15 +10,15 @@ It's time to start writing some Express code! We'll write a basic web server tha
    
 | **URL** | **HTTP Verb** | Action |
 |------------|-------------|-------------|
-| /birds         | GET       |  responds with all birds in our application
-| /birds/:id     | GET       | respond with a single bird
+| /birds         | GET       | responds with all birds in our application
+| /birds/:id     | GET       | responds with a single bird
+| /birds?city=NYC         | GET       | responds with all birds from that city
 
 All routes must return `JSON`
 
 
 ### Bonus:
 - Create a `GET /` route that responds with HTML listing out the name for each bird.
-- Create a `GET /cities/:name` route that responds with the birds in that city, e.g. `/cities/NYC`
 
 ## 🚀 Completion looks like:
 
