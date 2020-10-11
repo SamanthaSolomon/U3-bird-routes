@@ -1,7 +1,5 @@
 ## HOMEWORK: Practicing Express routes
 
-![bird](./assets/reps.jpg)
-
 It's time to start writing some Express code! We'll write a basic web server that sends out data about some birds.
 
 - Create an Express server in the `server.js` file
