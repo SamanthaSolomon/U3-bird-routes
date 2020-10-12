@@ -3,7 +3,6 @@
 It's time to start writing some Express code! We'll write a basic web server that sends out data about some birds.
 
 - Create an Express server in the `server.js` file
-- Create and use a `.env` file and set the port to `4000`
 - Import the bird data from `db/birds.js` into `server.js`
 - Create the following routes:
    
