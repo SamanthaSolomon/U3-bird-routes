@@ -9,8 +9,8 @@ It's time to start writing some Express code! We'll write a basic web server tha
 | **URL** | **HTTP Verb** | Action |
 |------------|-------------|-------------|
 | /birds         | GET       | responds with all birds in our application
-| /birds/:id     | GET       | responds with a single bird at that index
-| /birds/:type     | GET       | responds with a single bird of that type
+| /birds/id/:id     | GET       | responds with a single bird at that index
+| /birds/type/:type     | GET       | responds with a single bird of that type
 | /birds?city=nyc         | GET       | responds with all birds from that city
 | /birds?type=pigeon         | GET       | responds with all birds of that type
 
