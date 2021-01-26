@@ -1,0 +1,20 @@
+{
+  "name": "express_intro_routes-exercise",
+  "version": "1.0.0",
+  "description": "It's time to start writing some Express code! We'll write a basic web server that sends out data about some birds.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.generalassemb.ly/samanthasolomon/express_intro_routes-exercise.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
